@@ -61,3 +61,32 @@ header a:hover {
 .play-button a {
   color: rgb(255, 0, 171);
 }
+
+.logo {
+  -webkit-animation: color_change 1s infinite alternate;
+	-moz-animation: color_change 1s infinite alternate;
+	-ms-animation: color_change 1s infinite alternate;
+	-o-animation: color_change 1s infinite alternate;
+	animation: color_change 1s infinite alternate;
+}
+
+@-webkit-keyframes color_change {
+	from { color: pink; }
+	to { color: purple; }
+}
+@-moz-keyframes color_change {
+	from { color: pink; }
+	to { color: purple; }
+}
+@-ms-keyframes color_change {
+	from { color: pink; }
+	to { color: purple; }
+}
+@-o-keyframes color_change {
+	from { color: pink; }
+	to { color: purple; }
+}
+@keyframes color_change {
+	from { color: pink; }
+	to { color: purple; }
+}
