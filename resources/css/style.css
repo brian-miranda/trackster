@@ -10,7 +10,7 @@ body {
   font-family: "Work Sans";
 }
 
-nav {
+.header {
   background-color: rgb(35, 2, 63);
   padding: 2rem 0;
 }
@@ -31,7 +31,7 @@ input {
   height: 2.5rem;
 }
 
-i {
+header a {
   color: rgb(35, 2, 63);
   background-color: rgb(255, 0, 171);
   margin-left: 0.5rem;
@@ -39,4 +39,25 @@ i {
   border-radius: 1rem;
   height: 2.5rem;
   text-align: center;
+}
+
+header a:hover {
+  background-color: rgb(255, 102, 204);
+}
+
+.column-titles {
+  color: rgb(255, 255, 255);
+  background-color: rgb(104, 0, 255);
+  padding: 0.5rem 0;
+}
+
+.track {
+  font-size: 1rem;
+  color: rgb(74, 74, 74);
+  padding: 0.5rem 0;
+  border-bottom: solid 1px rgb(204, 204, 204);
+}
+
+.play-button a {
+  color: rgb(255, 0, 171);
 }
