@@ -1,11 +1,11 @@
 var Trackster = {};
-const API_KEY = '2bbe2722514f807faf8d22e800a914aa';
+const API_KEY = 'eb0025da5cdeb28148206aa86d8c163f';
 
 $(document).ready(function() {
   $('#search-button').click(function() {
     Trackster.searchTracksByTitle($('#search-input').val());
   });
-  
+
   $('#search-input').keydown(function(event) {
     var key = event.which;
     if(key === 13){
